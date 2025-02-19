@@ -2,29 +2,69 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import joblib
 import streamlit.components.v1 as components
-import torch
-import pandas as pd
 import folium
 from streamlit_folium import folium_static
 import numpy as np
 import os
 import json
-import geopandas as gpd
-from shapely.geometry import Point
+import pandas as pd
+from mistralai import Mistral
 from sklearn.model_selection import train_test_split
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
 # Cargar el modelo de valoración
-modelo = joblib.load('stacking_model.joblib') 
+modelo = joblib.load('stacking_model.joblib')
 
+# Cargar datos reales de viviendas en Madrid
+@st.cache_resource
+def load_data():
+    file_path = "data_con_distritos.csv"
+    df = pd.read_csv(file_path)
+    df = df.sample(n=550)
+    df_filtered = df[[
+        "PRICE", "CONSTRUCTEDAREA", "HASTERRACE", "HASLIFT", "HASAIRCONDITIONING",
+        "HASPARKINGSPACE", "DISTRITO", "ROOMNUMBER_RECATEGORIZED", "BATHNUMBER_RECATEGORIZED",
+        "CADASTRALQUALITYID_RECATEGORIZED", "LATITUDE", "FLATLOCATIONID_RECATEGORIZED"
+    ]]
+    df_filtered = df_filtered.rename(columns={
+        "PRICE": "Precio (€)",
+        "CONSTRUCTEDAREA": "Área (m²)",
+        "HASTERRACE": "Tiene Terraza",
+        "HASLIFT": "Tiene Ascensor",
+        "HASAIRCONDITIONING": "Tiene Aire Acondicionado",
+        "HASPARKINGSPACE": "Tiene Parking",
+        "DISTRITO": "Distrito",
+        "ROOMNUMBER_RECATEGORIZED": "Nº Habitaciones",
+        "BATHNUMBER_RECATEGORIZED": "Nº Baños",
+        "CADASTRALQUALITYID_RECATEGORIZED": "Calidad Catastral",
+        "LATITUDE": "Latitud",
+        "FLATLOCATIONID_RECATEGORIZED": "ID Ubicación"
+    })
+    return df_filtered
 
-# Bot
-ruta_modelo_finetuned = "gpt2_finetuned_final"  # Para local            
+df = load_data()
 
-# Cargar el modelo y el tokenizer optimizado
-tokenizer = AutoTokenizer.from_pretrained(ruta_modelo_finetuned)
-modelo_finetuned = AutoModelForCausalLM.from_pretrained(ruta_modelo_finetuned)
+# Función para interactuar con Mistral en Ollama
+def chat_mistral(prompt):
+    api_key = "bCOJ2FX4PF8aFclQYBt9T6voTAe1CFm5"
+    model = "mistral-small-latest"
+
+    client = Mistral(api_key=api_key)
+
+    chat_response = client.chat.complete(
+        model= model,
+        messages = [
+            {
+                "role": "user",
+                "content": f"Responde de forma breve y directa. Basado en estos datos:\n{df.to_string(index=False)}\nPregunta: {prompt}\nRespuesta:"
+            },
+        ]
+    )
+    return chat_response.choices[0].message.content
+
+def transformar_datos():
+    return np.array([[ constructedarea, distance_to_city_center, roomnumber_recategorized, bathnumber_recategorized,distance_to_castellana]])
 
 
 # Importar anuncios
@@ -262,44 +302,24 @@ elif selected == "AI Assistant":
     
     st.write("💬 Ask me anything about real estate properties!")
 
-    # Inicializar historial de chat en sesión de Streamlit
-    if "messages" not in st.session_state:
-        st.session_state.messages = []
-
-    # Mostrar el historial de chat
-    for msg in st.session_state.messages:
-        st.markdown(f"**{msg['role'].capitalize()}**: {msg['content']}")
-
     # Entrada del usuario
-    user_input = st.text_input("Type your question here:")
+    pregunta = st.text_input("Type your question here:")
 
-    if user_input:
-        # Guardar la pregunta en el historial del chat
-        st.session_state.messages.append({"role": "user", "content": user_input})
+    if pregunta:
+        respuesta = chat_mistral(pregunta)
+        st.write("🤖 **Respuesta:**")
+        st.write(respuesta)
 
-        # Tokenizar la entrada del usuario
-        input_ids = tokenizer.encode(user_input, return_tensors="pt")
+    # Mostrar datos de viviendas
+    st.write("📊 **Datos de viviendas disponibles**")
+    st.dataframe(df)
 
-        # Generar respuesta con el modelo optimizado
-        with torch.no_grad():
-            output = modelo_finetuned.generate(
-                input_ids,
-                max_length=100,  # Controlar la longitud de la respuesta
-                num_return_sequences=1,
-                pad_token_id=tokenizer.eos_token_id,
-                temperature=0.7,
-                top_k=50,
-                top_p=0.95
-            )
+    """ 🔍 Prueba preguntas como:
 
-        # Decodificar la respuesta del modelo
-        response = tokenizer.decode(output[0], skip_special_tokens=True)
-
-        # Guardar la respuesta del chatbot en el historial
-        st.session_state.messages.append({"role": "assistant", "content": response})
-
-        # Mostrar la respuesta en la interfaz
-        st.markdown(f"**Assistant**: {response}")
+    ¿Cuál es el precio promedio de una vivienda en Chamartín?
+    ¿En qué distrito hay más viviendas con terraza?
+    ¿Qué calidad catastral tienen los pisos en Centro? 
+    """
 
 elif selected == "Property Valuation":
     st.markdown("""
@@ -317,20 +337,13 @@ elif selected == "Property Valuation":
     bathnumber_recategorized =  st.number_input("Number of baths:", min_value = 1 ,max_value = 5, value = 1)
     distance_to_castellana = st.number_input("Distance of points of interest(kms)", min_value=0, value=0, max_value = 50)
 
-
-
-
-    
-def transformar_datos():
-    return np.array([[ constructedarea, distance_to_city_center, roomnumber_recategorized, bathnumber_recategorized,distance_to_castellana]])
-
-if st.button("Calcular Precio Estimado"):
-    datos = transformar_datos()
-    prediccion = modelo.predict(datos)[0] 
-    st.markdown(
-        f"<div style='font-size: 24px; color: black; text-align: center;'>El valor estimado de la vivienda es: {prediccion:,.2f} €</div>",
-        unsafe_allow_html=True
-    )
+    if st.button("Calcular Precio Estimado"):
+        datos = transformar_datos()
+        prediccion = modelo.predict(datos)[0]
+        st.markdown(
+            f"<div style='font-size: 24px; color: black; text-align: center;'>El valor estimado de la vivienda es: {prediccion:,.2f} €</div>",
+            unsafe_allow_html=True
+        )
 
 elif selected == "Profile":
     st.markdown("""
