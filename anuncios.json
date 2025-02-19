@@ -6,18 +6,8 @@
         "area": "75 m²",
         "bedrooms": "2",
         "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
+        "main_photo": "https://storage.googleapis.com/py-web--as-py--pro--static/images/casa-klein-bottle.width-700.jpg",
         "iconos": "<i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "284,000 €",
-        "area": "48 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
     },
     {
         "title": "Cozy Home in Centro",
@@ -26,7 +16,7 @@
         "area": "50 m²",
         "bedrooms": "0",
         "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
+        "main_photo": "https://images.ecestaticos.com/1Zs437ie7JHMFidBxXZUZdyMuJQ=/0x0:1141x919/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F600%2F6a5%2Fe2a%2F6006a5e2ad6f8e1e70c52c0fae15b93e.jpg",
         "iconos": ""
     },
     {
@@ -36,7 +26,7 @@
         "area": "35 m²",
         "bedrooms": "0",
         "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
+        "main_photo": "https://microplanmadrid.com/wp-content/uploads/2016/08/arturo-soria-villa-hispana.jpg?w=1038&h=576&crop=1",
         "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
     },
     {
@@ -46,7 +36,7 @@
         "area": "100 m²",
         "bedrooms": "2",
         "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Arganzuela",
+        "main_photo": "https://imganuncios.mitula.net/atico_de_lujo_de_45_m2_en_venta_calle_sebastian_elcano_8_madrid_comunidad_de_madrid_7000003729079367607.jpg",
         "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
     },
     {
@@ -56,7 +46,7 @@
         "area": "44 m²",
         "bedrooms": "0",
         "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
+        "main_photo": "https://media.yaencontre.com/img/photo/w380/promo_57477-23/files/57477-54108709-1394500102.jpg",
         "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
     },
     {
@@ -66,437 +56,17 @@
         "area": "40 m²",
         "bedrooms": "1",
         "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": ""
-    },
-    {
-        "title": "Luxury Home in Centro with Terrace",
-        "location": "Centro",
-        "price": "897,000 €",
-        "area": "142 m²",
-        "bedrooms": "5 or more",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "265,000 €",
-        "area": "58 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
-    },
-    {
-        "title": "Luxury Home in Centro with Terrace",
-        "location": "Centro",
-        "price": "650,000 €",
-        "area": "156 m²",
-        "bedrooms": "5 or more",
-        "bathrooms": "3",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "128,000 €",
-        "area": "35 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "177,000 €",
-        "area": "30 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": ""
-    },
-    {
-        "title": "Cozy Home in Centro | South orientation",
-        "location": "Centro",
-        "price": "430,000 €",
-        "area": "97 m²",
-        "bedrooms": "2",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
-    },
-    {
-        "title": "Cozy Home in Arganzuela | South, West orientation",
-        "location": "Arganzuela",
-        "price": "191,000 €",
-        "area": "50 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Arganzuela",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "372,000 €",
-        "area": "90 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "246,000 €",
-        "area": "44 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": ""
-    },
-    {
-        "title": "Cozy Home in Centro | East orientation with Terrace",
-        "location": "Centro",
-        "price": "383,000 €",
-        "area": "62 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Luxury Home in Centro | North, West orientation with Terrace",
-        "location": "Centro",
-        "price": "536,000 €",
-        "area": "101 m²",
-        "bedrooms": "2",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro | North, South orientation",
-        "location": "Centro",
-        "price": "153,000 €",
-        "area": "60 m²",
-        "bedrooms": "2",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro | East orientation with Terrace",
-        "location": "Centro",
-        "price": "433,000 €",
-        "area": "113 m²",
-        "bedrooms": "4",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
+        "main_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwVeq9USiahRGe1QUHIfje2k6cIeh5BfDWpw&s",
         "iconos": ""
     },
     {
         "title": "Cozy Home in Centro",
         "location": "Centro",
-        "price": "257,000 €",
-        "area": "58 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": ""
-    },
-    {
-        "title": "Cozy Home in Centro | South, East orientation",
-        "location": "Centro",
-        "price": "291,000 €",
-        "area": "46 m²",
-        "bedrooms": "0",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Luxury Home in Centro",
-        "location": "Centro",
-        "price": "680,000 €",
-        "area": "98 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "237,000 €",
-        "area": "60 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Luxury Home in Centro",
-        "location": "Centro",
-        "price": "560,000 €",
-        "area": "70 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "390,000 €",
-        "area": "112 m²",
-        "bedrooms": "3",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "169,000 €",
-        "area": "30 m²",
-        "bedrooms": "0",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": ""
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "195,000 €",
-        "area": "35 m²",
-        "bedrooms": "0",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
-    },
-    {
-        "title": "Luxury Home in Centro | East orientation",
-        "location": "Centro",
-        "price": "556,000 €",
-        "area": "125 m²",
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": ""
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "248,000 €",
-        "area": "65 m²",
-        "bedrooms": "2",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro | North, East orientation",
-        "location": "Centro",
-        "price": "429,000 €",
-        "area": "53 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Luxury Home in Centro",
-        "location": "Centro",
-        "price": "541,000 €",
-        "area": "140 m²",
-        "bedrooms": "2",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Arganzuela | South, West orientation with Terrace",
-        "location": "Arganzuela",
-        "price": "262,000 €",
-        "area": "68 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Arganzuela",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "236,000 €",
-        "area": "40 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": ""
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "220,000 €",
-        "area": "45 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
-    },
-    {
-        "title": "Cozy Home in Centro | South orientation",
-        "location": "Centro",
-        "price": "274,000 €",
+        "price": "284,000 €",
         "area": "48 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "201,000 €",
-        "area": "38 m²",
         "bedrooms": "1",
         "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": ""
-    },
-    {
-        "title": "Luxury Home in Centro | South, East orientation",
-        "location": "Centro",
-        "price": "676,000 €",
-        "area": "168 m²",
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro",
-        "location": "Centro",
-        "price": "195,000 €",
-        "area": "28 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
-    },
-    {
-        "title": "Luxury Home in Centro | South orientation with Terrace",
-        "location": "Centro",
-        "price": "507,000 €",
-        "area": "158 m²",
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro | South orientation",
-        "location": "Centro",
-        "price": "267,000 €",
-        "area": "48 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro | North, South orientation",
-        "location": "Centro",
-        "price": "293,000 €",
-        "area": "98 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": ""
-    },
-    {
-        "title": "Cozy Home in Centro | South, East orientation with Terrace",
-        "location": "Centro",
-        "price": "372,000 €",
-        "area": "68 m²",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Luxury Home in Centro",
-        "location": "Centro",
-        "price": "530,000 €",
-        "area": "116 m²",
-        "bedrooms": "2",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro | South orientation",
-        "location": "Centro",
-        "price": "393,000 €",
-        "area": "84 m²",
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift"
-    },
-    {
-        "title": "Cozy Home in Centro | West orientation",
-        "location": "Centro",
-        "price": "329,000 €",
-        "area": "59 m²",
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning | <i class='fas fa-car' style='color: #b2443a; font-size: 24px;'></i> Parking"
-    },
-    {
-        "title": "Luxury Home in Centro | North, East orientation",
-        "location": "Centro",
-        "price": "700,000 €",
-        "area": "100 m²",
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Luxury Home in Centro with Terrace",
-        "location": "Centro",
-        "price": "602,000 €",
-        "area": "100 m²",
-        "bedrooms": "2",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
-    },
-    {
-        "title": "Cozy Home in Centro | West orientation",
-        "location": "Centro",
-        "price": "369,000 €",
-        "area": "73 m²",
-        "bedrooms": "2",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
-        "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning | <i class='fas fa-car' style='color: #b2443a; font-size: 24px;'></i> Parking"
-    },
-    {
-        "title": "Luxury Home in Centro | South, West orientation",
-        "location": "Centro",
-        "price": "687,000 €",
-        "area": "163 m²",
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "main_photo": "https://source.unsplash.com/400x300/?madrid,Centro",
+        "main_photo": "https://i.pinimg.com/550x/3a/b6/64/3ab66451b67b38aed6ebafc45ab9c3ae.jpg",
         "iconos": "<i class='fas fa-elevator' style='color: #b2443a; font-size: 24px;'></i> Lift | <i class='fas fa-wind' style='color: #b2443a; font-size: 24px;'></i> Air Conditioning"
     }
 ]
